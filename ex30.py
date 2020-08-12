@@ -2,6 +2,6 @@
 numero =int(input("Digite um número: "))
 resultado = numero % 2
 if resultado == 0:
-    print('O número digitado é par')
+    print('\033[36mO número digitado é par\033[m')
 else:
-    print('O número digitado é impar')
+    print('\033[35mO número digitado é impar\033[m')

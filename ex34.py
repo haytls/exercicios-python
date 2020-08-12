@@ -3,7 +3,7 @@
 #Para os inferiores ou iguais, o aumento é de 15%
 salario =float(input('Digite seu salário R$:'))
 if salario > 1250:
-    print('Com o aumento seu salário vai para R${:.2f}'.format((salario*0.10)+salario))
+    print('\033[4mCom o aumento seu salário vai para R${:.2f}\033[m'.format((salario*0.10)+salario))
 if salario <= 1250:
-    print('Com o aumento seu salário vai para R${:.2f}'.format((salario*0.15)+salario))
+    print('\033[4mCom o aumento seu salário vai para R${:.2f}\033[m'.format((salario*0.15)+salario))
 

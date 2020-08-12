@@ -3,4 +3,4 @@ from pygame import mixer
 mixer.init()
 mixer.music.load('music 1.mp3')
 mixer.music.play()
-input('Agora você escuta ? ')
+input('\033[7mAgora você escuta ?\033[m ')

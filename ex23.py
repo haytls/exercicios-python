@@ -5,7 +5,7 @@
 #Dezena:3
 #Centena:8
 #Milhar:1
-num =int(input('Digite um número'))
+num =int(input('\033[4mDigite um número\033[m'))
 u = num // 1 % 10
 d = num // 10 % 101
 c = num // 100 % 10

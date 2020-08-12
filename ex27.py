@@ -5,8 +5,8 @@
 #Segundo = Souza
 nome =str(input('Digite seu nome: '))
 s = nome.split()
-print('Seu primeiro nome = {}'.format(s[0]))
-print('Seu segundo nome = {}'.format(s[len(s)-1]))
+print('Seu primeiro nome = \033[34m{}\033[m'.format(s[0]))
+print('Seu segundo nome = \033[34m{}\033[m'.format(s[len(s)-1]))
 
 
 

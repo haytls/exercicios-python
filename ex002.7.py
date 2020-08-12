@@ -2,5 +2,7 @@
 # para pintá-la, sabendo que casa litro de tinta pinta uma área de 2m².
 a =int(input('Altura:'))
 l =int(input('Largura:'))
-print('Á área da parede é de {:.2f} metros, a quantidade de tinta necessaria pra pintar é de {:.2f4} litros'.format((a*l), ((a*l)/2)))
+print('Á área da parede é de \033[1;35m{:.2f} metros\033[m, '
+      'a quantidade de tinta necessaria pra pintar é '
+      'de \033[1;35m{:.2f} litros\033[m'.format((a*l), ((a*l)/2)))
 

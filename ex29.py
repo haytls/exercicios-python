@@ -3,8 +3,8 @@
 #A multa vai custar R$ por cada km acima do limite.
 v =int(input('Digite a velocidade: '))
 if v>80:
-    print('Você foi multado!')
+    print('\033[31mVocê foi multado!\033[m')
     m = (v -80)*7
-    print('Sua multa foi de R$ {:.2f}!'.format(m))
+    print('\033[31mSua multa foi de R$ {:.2f}!\033[m'.format(m))
 else:
-    print('Está tudo Ok!')
+    print('\033[32mEstá tudo Ok!\033[m')

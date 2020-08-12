@@ -8,7 +8,7 @@ n =int(input('Adivinhe o número: '))
 nm = random.randint(0, 5)
 print('Número escolhido pela maquina: {}'.format(nm))
 if n == nm:
-    print('Você venceu')
+    print('\033[32mVocê venceu\033[m')
 else:
-    print('Você perdeu')
+    print('\033[31mVocê perdeu\033[m')
 

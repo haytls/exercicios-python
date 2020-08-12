@@ -7,5 +7,5 @@ a3 =str(input('Digite o nome do terceiro aluno: '))
 a4 =str(input('Digite o nome do terceiro aluno: '))
 l =[a1, a2, a3, a4]
 s = choice(l)
-print('O aluno escolhido foi o(a) {} '.format(s))
+print('\033[0;30;41mO aluno escolhido foi o(a) {}\033[m '.format(s))
 

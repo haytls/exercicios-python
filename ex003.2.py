@@ -1,5 +1,5 @@
 import emoji
-print(emoji.emojize("Olá mundo :guardsman:", use_aliases=False))
+print(emoji.emojize("\033[7;30mOlá mundo\033[m :guardsman:", use_aliases=True))
 
 
 

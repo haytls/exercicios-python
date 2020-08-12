@@ -4,7 +4,8 @@ import math
 cp =float(input('Digite o comprimento do cateto oposto: '))
 ca =float(input('Digite o comprimento do cateto adjacente: '))
 h =math.hypot(cp, ca)
-print('O cateto oposto é {}, já o adjacente é {}, por fim a hipotenusa é {:.2f}'.format(cp, ca, h))
+print('O cateto oposto é \033[45m{}\033[m, já o adjacente é'
+      ' \033[45m{}\033[m, por fim a hipotenusa é \033[45m{:.2f}\033[m'.format(cp, ca, h))
 
 
 

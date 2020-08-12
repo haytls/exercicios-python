@@ -4,8 +4,8 @@
 distancia =float(input('Digite a distância percorrida: '))
 if distancia<=200:
     v1= distancia*0.50
-    print('O valor a ser pago é de R${:.2f}'.format(v1))
+    print('\033[32mO valor a ser pago é de R${:.2f}\033[m'.format(v1))
 else:
     v2= distancia*0.45
-    print('O valor a ser pago é de R${:.2f}'.format(v2))
+    print('\033[31mO valor a ser pago é de R${:.2f}\033[m'.format(v2))
 
