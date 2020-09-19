@@ -22,7 +22,7 @@ if computador == 0:
     if play == 0:
         print('EMPATE!')
     elif play == 1:
-        print('VOCÊ VENCEU')
+        print(' VOCÊ VENCEU')
     elif play == 2:
         print('O COMPUTADOR VENCEU')
     else:
